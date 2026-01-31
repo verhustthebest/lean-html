@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+/* Class content */
+.contenaire {
+    width: 80%;
+    margin: auto;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* --- HEADER*/
+.nav-container {
+    padding: 2px 0px;
+    background: #FFFFFF;
+}
+
+contenair .logoo {
+    height: 4vh;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.85vh;
+}
+
+/* Survol of mousse  */
+
+.main-nav ul li {
+    padding: 11px;
+}
+
+.main-nav ul li:hover {
+    background-color: #FFC000;
+    padding: 11px;
+}
+
+.help {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.help div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3px;
+}
+
+.phone-img {
+    width: 45px;
+}
+
+.help-title {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.phone_number {
+    color: #FFC000;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+
+/* --- HERO SECTION --- */
+.hero-section {
+    position: relative;
+    height: 35vh;
+    color: #0c0707;
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+.hero-section p {
+    color: #0c0707;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    /* Prendre l'espace disponible à l'affichage */
+    object-fit: cover;
+    background-position: center;
+    /* opacité d'un élément */
+    opacity: 0.90;
+
+    /* background-color: rgba(93, 73, 56, 0.2); */
+}
+
+.hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(253, 201, 201, 0.4); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-yellow {
+    background: #850230;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-blank {
+    background: rgb(194, 243, 224);
+    border-radius: 10px;
+    color: #050404;
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* --- What we do --- */
+
+.what-we-do {
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    font-size: 3vh;
+    /* background-color: rebeccapurple; */
+}
+
+.what-we-do p {
+    color: #000;
+}
+
+/* Class content */
+.contenair_wath {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* 2 colonn es  */
+.grid-2-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card {
+    position: relative;
+    height: 350px;
+    display: flex;
+
+    /* card rigth  */
+    justify-content: flex-end;
+}
+
+.card img {
+    width: 100%;
+    height: 95%;/
+    /* Empêche l'image de s'écraser */
+    object-fit: cover;
+    padding: 10px 0px -10px -10px;
+}
+
+.yellow-case {
+    position: absolute;
+    /* Position left */
+    left: 50;
+    bottom: 18px;
+    background: #FFC000;
+    width: 45%;
+    padding: 25px;
+    /* bloc au-dessus de l'image */
+    z-index: 10;
+}
+
+.yellow-case h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.yellow-case p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+
+/* 4 colonnes  */
+
+/* Class content */
+.contenair_four_col {
+    width: 80%;
+    margin: auto;
+    object-fit: cover;
+}
+
+
+.grid-4-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 45px 0px 38px 0px;
+    gap: 10px;
+}
+
+/* for four images */
+.grid-4-cols img {
+    width: 100%;
+    height: 305px;
+}
+
+
+
+
+/* --- FOOTER --- */
+.Footer {
+    background-color: #000;
+    color: #ffffff;
+    padding: 60px 10% 20px 10%;
+    font-family: Arial;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+/* Pour une mises en page flexible */
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: #ccc;
+}
+
+
+.links ul {
+    /* Enlever les pointillés */
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links a,
+.contact a {
+    color: #fff;
+    /* Soulignement jaune des liens */
+    text-decoration-color: #f1c40f;
+}
+
+.foot_nav {
+    margin: 20px 0;
+}
+
+.footer-botm {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #e1dfdf;
+}
+
+.bottom-nav a {
+    color: #fff;
+}
